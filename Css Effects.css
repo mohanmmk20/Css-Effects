@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         img {
+            border: 2px solid orange;
+            border-radius: 3px;
+            padding: 7px;
+         }
+         img:hover {
+            box-shadow: 0 0 2px 2px blue;
+         }
+      </style>
+   </head>
+   <body>
+      <img src = "https://www.tutorialspoint.com/videotutorials/images/coding_ground_home.jpg" alt="Online Compiler" width="300" height="300">
+   </body>
+</html>
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         div {
+            width: 150px;
+            height: 200px;
+            background-color: yellow;
+            animation: myanim 2s
+         }
+         @keyframes myanim {
+            from {
+               background-color: green;
+            }
+            to {
+               background-color: blue;
+            }
+         }
+      </style>
+   </head>
+   <body>
+      <div></div>
+   </body>
+</html>
+<html>
+   <head>
+   </head>
+
+   <body>
+      <div style = "position:relative; left:80px; top:2px; background-color:yellow;">
+         This div has relative positioning.
+      </div>
+   </body>
+</html>
+<html>
+   <head>
+   </head>
+
+   <body>
+      <div style = "position:absolute; left:80px; top:20px; background-color:yellow;">
+         This div has absolute positioning.
+      </div>
+   </body>
+</html> 
+<html>
+   <head>
+   </head>
+
+   <body>
+      <div style = "position:fixed; left:80px; top:20px; background-color:yellow;">
+         This div has fixed positioning.
+      </div>
+   </body>
+</html>
+<html>
+   <head>
+      <style type = "text/css">
+         .scroll {
+            display:block;
+            border: 1px solid red;
+            padding:5px;
+            margin-top:5px;
+            width:300px;
+            height:50px;
+            overflow:scroll;
+         }
+         .auto {
+            display:block;
+            border: 1px solid red;
+            padding:5px;
+            margin-top:5px;
+            width:300px;
+            height:50px;
+            overflow:auto;
+         }
+      </style>
+   </head>
+
+   <body>
+   
+      <p>Example of scroll value:</p>
+      
+      <div class = "scroll">
+         I am going to keep lot of content here just to show you how 
+         scrollbars works if there is an overflow in an element box. 
+         This provides your horizontal as well as vertical scrollbars.
+      </div>
+      <br />
+      
+      <p>Example of auto value:</p>
+      
+      <div class = "auto">
+         I am going to keep lot of content here just to show you how 
+         scrollbars works if there is an overflow in an element box. 
+         This provides your horizontal as well as vertical scrollbars.
+      </div>
+      
+   </body>
+</html> 
+<html>
+   <head>
+   </head>
+   <body>
+      <img style = "border:1px solid red;-moz-opacity:0.2;filter:alpha(opacity=50);"
+         src = "https://www.tutorialspoint.com/assets/videotutorials/courses/css_online_training/380_course_215_image.jpg" />
+   </body>
+</html>
